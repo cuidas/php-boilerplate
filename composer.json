@@ -1,0 +1,30 @@
+{
+  "name": "cuidas/php-boilerplate",
+  "description": "Boilerplate for fast PHP project starting",
+  "require": {
+    "symfony/console": "^2.7",
+    "psr/log": "^1.0",
+    "phpunit/phpunit": "^4.8",
+    "twig/twig": "^1.21",
+    "phroute/phroute": "^2.0",
+    "kriswallsmith/assetic": "^1.2",
+    "symfony/var-dumper": "^2.7",
+    "league/flysystem": "^1.0",
+    "fzaninotto/faker": "^1.5",
+    "psy/psysh": "^0.5.2",
+    "symfony/debug": "^2.7",
+    "aura/di": "^2.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "cuidas",
+      "email": "cuidas@gmx.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Cuidas\\": "src/Cuidas"
+    }
+  }
+}
